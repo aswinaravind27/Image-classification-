@@ -28,7 +28,7 @@ def load_images_and_labels(image_folder):
     return np.array(images), np.array(labels)
 
 # Define folders
-image_folder = 'D:\\cv\\Riped and Unriped Tomato Dataset\\images'
+image_folder = 'D:\\cv\\Riped and Unriped Tomato Dataset\'
 
 # Load data
 images, labels = load_images_and_labels(image_folder)
